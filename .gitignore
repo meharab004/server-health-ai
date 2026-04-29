@@ -1,0 +1,4 @@
+﻿venv/
+.github/workflows/venv/
+__pycache__/
+*.pyc
