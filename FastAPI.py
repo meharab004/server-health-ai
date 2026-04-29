@@ -6,7 +6,7 @@ model = joblib.load("server_model.pkl")
 
 @app.get("/")
 def home():
-    return {"message": "AI Server Monitor is Online"}
+    return {"message": "AI Server Monitor v2.0 - CI/CD Active"}
 
 @app.get("/predict")
 def predict(temp: float, cpu: float):
